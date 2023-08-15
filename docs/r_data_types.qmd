@@ -49,3 +49,15 @@ vec_2_e2
 df_1 <- data.frame(region = c('A', 'B', 'A', 'D'), species = c('otter', 'great white', 'sea lion', 'gray whale'), count = c(12, 2, 36, 6))
 df_1
 ```
+
+```{r}
+class(df_1)
+class(df_1[[2]])
+```
+
+```{r}
+max_count <- max(df_1[[3]])
+max_count
+```
+
+# Part 2: Wild Data
